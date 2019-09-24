@@ -1,0 +1,14 @@
+[package]
+name = "resume"
+version = "0.1.0"
+authors = ["Tyler Tolton <tjtolton@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flap = "0.0.11"
+lambda_runtime = "0.2.1"
+rusoto_s3 = "0.40.0"
+chrono = "0.4.9"
+json = "0.12.0"
