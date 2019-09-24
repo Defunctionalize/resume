@@ -25,6 +25,7 @@ phases:
   # - command
   build:
     commands:
+     - cd resume
      - cargo build --release
      - cargo run
     # - command
