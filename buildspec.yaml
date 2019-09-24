@@ -30,7 +30,7 @@ phases:
     # - command
   post_build:
     commands:
-     - docker commit
+     - docker ps
     # - command
 
 
