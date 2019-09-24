@@ -19,19 +19,18 @@ phases:
   #commands:
   # - command
   # - command
-  #pre_build:
-  #commands:
-  # - command
-  # - command
+  pre_build:
+    commands:
+     - $(aws ecr get-login --no-include-email --region us-east-1)
   build:
     commands:
      - cd resume
-     - cargo build --release
-     - cargo run
+     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
+#     - cargo build --release
     # - command
-    #post_build:
-    #commands:
-    # - command
+  post_build:
+    commands:
+     - docker commit
     # - command
 
 
