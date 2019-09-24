@@ -27,6 +27,8 @@ phases:
     commands:
      - echo hello, build
      - cargo --version
+     - pwd
+     - ls
     # - command
     #post_build:
     #commands:
