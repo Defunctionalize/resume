@@ -25,12 +25,18 @@ phases:
   # - command
   build:
     commands:
-     - resume
+     - cargo build --release
+     - cargo run
     # - command
     #post_build:
     #commands:
     # - command
     # - command
+
+
+#  2 deploy pipelines needed:  deployment code pipeline and product pipeline.  well, technically 3 are needed, if you include the s3 trigger.
+#    as such, one wonders if a SAM template describing this shit might not be in order.
+#    methinks it must be
     #artifacts:
     #files:
     # - location
