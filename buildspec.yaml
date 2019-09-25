@@ -28,9 +28,9 @@ phases:
 #     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
      - cargo build --release
     # - command
-  post_build:
-    commands:
-     - docker ps
+#  post_build:
+#    commands:
+#     - docker ps
     # - command
 
 
