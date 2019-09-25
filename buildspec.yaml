@@ -30,22 +30,22 @@ phases:
     # - command
   post_build:
     commands:
-     - ls
+     - pwd
 #     - ls resume
-     - ls target
+#     - ls target
     # - command
 
 
 #  2 deploy pipelines needed:  deployment code pipeline and product pipeline.  well, technically 3 are needed, if you include the s3 trigger.
 #    as such, one wonders if a SAM template describing this shit might not be in order.
 #    methinks it must be
-    #artifacts:
-    #files:
-    # - location
-    # - location
-    #name: $(date +%Y-%m-%d)
-    #discard-paths: yes
-    #base-directory: location
-    #cache:
-    #paths:
-    # - paths
+artifacts:
+  files:
+   - '*/resume'
+#   - location
+#  name:
+#  discard-paths: yes
+#  base-directory: location
+#cache:
+#  paths:
+#   - paths
