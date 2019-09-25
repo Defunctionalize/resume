@@ -25,8 +25,8 @@ phases:
   build:
     commands:
      - cd resume
-     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
-#     - cargo build --release
+#     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
+     - cargo build --release
     # - command
   post_build:
     commands:
