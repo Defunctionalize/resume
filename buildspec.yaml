@@ -41,11 +41,11 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-   - './target/release/resume'
+   - 'target/release/resume'
 #   - location
 #  name: $(date +%Y-%m-%d)
 #  discard-paths: yes
-#  base-directory: location
+  base-directory: .
 #cache:
 #  paths:
 #   - paths
