@@ -41,7 +41,7 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-   - "$(pwd)"
+   - './target/release/resume'
 #   - location
 #  name: $(date +%Y-%m-%d)
 #  discard-paths: yes
