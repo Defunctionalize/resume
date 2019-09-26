@@ -47,11 +47,12 @@ artifacts:
   discard-paths: yes
   base-directory: "$(pwd)"
   secondary-artifacts:
-    base-directory: "$(pwd)/target/release"
-    files:
-      - 'build/*'
-      - 'deps/*'
-    discard-paths: no
+    cargo:
+      base-directory: "$(pwd)/target/release"
+      files:
+        - 'build/*'
+        - 'deps/*'
+      discard-paths: no
 #cache:
 #  paths:
 #   - paths
