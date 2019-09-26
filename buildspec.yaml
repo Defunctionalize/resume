@@ -46,10 +46,11 @@ artifacts:
    - 'deps/*'
   base-directory: "$(pwd)/target/release"
   secondary-artifacts:
-    files:
-      - 'registry/*'
-    name: registry
-    base-directory: "~/.cargo"
+    cargo:
+      files:
+        - 'registry/*'
+      name: registry
+      base-directory: "~/.cargo"
 
 #cache:
 #  paths:
