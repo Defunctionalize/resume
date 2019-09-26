@@ -1,4 +1,4 @@
-FROM rust
+FROM clux/muslrust
 
 WORKDIR /usr/src/myapp
 COPY . .
