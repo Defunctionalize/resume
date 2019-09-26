@@ -44,7 +44,7 @@ artifacts:
    - resume
    - 'build/*'
    - 'deps/*'
-  base-directory: "$(pwd)"
+  base-directory: "$(pwd)/target/release"
 
 #cache:
 #  paths:
