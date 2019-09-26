@@ -31,6 +31,7 @@ phases:
   post_build:
     commands:
      - pwd
+     - ls -ltrah target/release
 #     - ls resume
 #     - ls target
     # - command
