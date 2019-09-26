@@ -32,7 +32,8 @@ phases:
     commands:
      - pwd
      - ls -ltrah target/x86_64-unknown-linux-musl/release
-     - 'ls /root/.cargo'
+     - 'ls -ltrah /root/.cargo'
+     - 'ls /root/.cargo/registry'
 #     - ls resume
     # - command
 
