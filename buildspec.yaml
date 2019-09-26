@@ -43,9 +43,15 @@ artifacts:
   files:
    - 'target/release/resume'
 #   - location
-#  name: $(date +%Y-%m-%d)
-#  discard-paths: yes
+  name: resume
+  discard-paths: yes
   base-directory: "$(pwd)"
+  secondary-artifacts:
+    base-directory: "$(pwd)/target/release"
+    files:
+      - 'build/*'
+      - 'deps/*'
+    discard-paths: no
 #cache:
 #  paths:
 #   - paths
