@@ -41,8 +41,7 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-   - 'target/release/resume'
-  base-directory: $(pwd)
+   - "$(pwd)/target/release/resume"
   discard-paths: yes
   name: resume
   secondary-artifacts:
