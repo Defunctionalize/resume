@@ -26,14 +26,14 @@ phases:
     commands:
      - cd resume
 #     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
-     - cargo build --release
+     - cargo build --release --target x86_64-unknown-linux-musl
     # - command
   post_build:
     commands:
      - pwd
-     - ls -ltrah target/release
-#     - ls resume
+     - ls -ltrah target/x86_64-unknown-linux-musl/release
 #     - ls target
+#     - ls resume
     # - command
 
 
@@ -42,7 +42,7 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-   - "$(pwd)/target/release/resume"
+   - "$(pwd)/target/x86_64-unknown-linux-musl/release/resume"
   discard-paths: yes
   name: resume
   secondary-artifacts:
