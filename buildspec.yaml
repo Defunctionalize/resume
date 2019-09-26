@@ -41,18 +41,11 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-   - 'target/release/resume'
-#   - location
-  name: resume
-  discard-paths: yes
+   - resume
+   - 'build/*'
+   - 'deps/*'
   base-directory: "$(pwd)"
-  secondary-artifacts:
-    cargo:
-      base-directory: "$(pwd)/target/release"
-      files:
-        - 'build/*'
-        - 'deps/*'
-      discard-paths: no
+
 #cache:
 #  paths:
 #   - paths
