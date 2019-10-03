@@ -13,8 +13,9 @@ phases:
      - mv target/x86_64-unknown-linux-musl/release/resume target/resume
 artifacts:
   files:
-   - "$(pwd)/target/resume"
+   - "resume"
   discard-paths: yes
+  base-directory: "$(pwd)/target"
   name: resume
   secondary-artifacts:
     cargo:
