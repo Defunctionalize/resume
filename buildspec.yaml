@@ -4,11 +4,11 @@ phases:
     commands:
      - env
      - cd resume
-     - ls -ltrah $CODEBUILD_SRC_DIR_cargo
-     - ls -ltrah
-     - mkdir target
-     - "mv $CODEBUILD_SRC_DIR_cargo/target/* target/"
-     - ls -ltrah
+#     - ls -ltrah $CODEBUILD_SRC_DIR_cargo
+#     - ls -ltrah
+#     - mkdir target
+#     - "mv $CODEBUILD_SRC_DIR_cargo/ target/"
+#     - ls -ltrah
      - cargo build --release --target x86_64-unknown-linux-musl
      - mv target/x86_64-unknown-linux-musl/release/resume target/resume
 artifacts:
