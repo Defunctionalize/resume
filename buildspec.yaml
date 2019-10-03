@@ -3,7 +3,7 @@ phases:
   build:
     commands:
      - cd resume
-     - ls -ltrah /root/.cargo/registry
+#     - ls -ltrah /root/.cargo/registry
      - cargo build --release --target x86_64-unknown-linux-musl
 artifacts:
   files:
