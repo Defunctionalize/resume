@@ -1,47 +1,13 @@
 version: 0.2
-
-  #env:
-  #variables:
-  # key: "value"
-  # key: "value"
-  #parameter-store:
-  # key: "value"
-  # key: "value"
-#git-credential-helper: yes
-
 phases:
-  #install:
-  #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
-  #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
-  #runtime-versions:
-  # name: version
-  # name: version
-  #commands:
-  # - command
-  # - command
-#  pre_build:
-#    commands:
-#     - $(aws ecr get-login --no-include-email --region us-east-1)
   build:
     commands:
      - cd resume
-#     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
+     - mkdir --parents target/x86_64-unknown-linux-musl
+     - mv $CODEBUILD_SRC_DIR_cargo/* $_
+     - ls target/x86_64-unknown-linux-musl
      - cargo build --release --target x86_64-unknown-linux-musl
      - mv target/x86_64-unknown-linux-musl/release/resume target/resume
-    # - command
-  post_build:
-    commands:
-     - pwd
-     - ls -ltrah target/x86_64-unknown-linux-musl/release
-     - 'ls -ltrah /root/.cargo'
-     - 'ls /root/.cargo/registry'
-#     - ls resume
-    # - command
-
-
-#  2 deploy pipelines needed:  deployment code pipeline and product pipeline.  well, technically 3 are needed, if you include the s3 trigger.
-#    as such, one wonders if a SAM template describing this shit might not be in order.
-#    methinks it must be
 artifacts:
   files:
    - "$(pwd)/target/resume"
@@ -52,7 +18,3 @@ artifacts:
       files:
         - "$(pwd)/target/x86_64-unknown-linux-musl/release/*/*"
       name: build
-
-#cache:
-#  paths:
-#   - paths
