@@ -2,22 +2,15 @@ version: 0.2
 phases:
   build:
     commands:
-     - env
      - cd resume
-     - cd $CODEBUILD_SRC_DIR_build/codebuild/output
-     - ls -ltrah
-#     - mkdir target
-#     - "cp $CODEBUILD_SRC_DIR_build target"
-#     - cargo build --release --target x86_64-unknown-linux-musl
-#     - mv target/x86_64-unknown-linux-musl/release/resume target/resume
+     - cargo build --release --target x86_64-unknown-linux-musl
+#     - mv target/ target/resume
 artifacts:
   files:
    - "resume"
   discard-paths: yes
-  base-directory: "$(pwd)/target"
+  base-directory: "$(pwd)/target/x86_64-unknown-linux-musl/release"
   name: resume
-  secondary-artifacts:
-    cargo:
-      files:
-        - "$(pwd)/target/x86_64-unknown-linux-musl/release/*/*"
-      name: build
+cache:
+  paths:
+    - "/root/.cargo/registry"
