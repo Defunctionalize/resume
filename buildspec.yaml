@@ -4,10 +4,7 @@ phases:
     commands:
      - env
      - cd resume
-     - cd $CODEBUILD_SRC_DIR_build
-     - ls -ltrah
-     - cd codebuild
-     - ls -ltrah
+     - cd $CODEBUILD_SRC_DIR_build/codebuild/output
 #     - mkdir target
 #     - "cp $CODEBUILD_SRC_DIR_build target"
 #     - ls -ltrah target
