@@ -6,6 +6,8 @@ phases:
      - ls -ltrah
      - ls -ltrah target
      - ls -ltrah target/x86_64-unknown-linux-musl/release
+     - ls -ltrah target/x86_64-unknown-linux-musl/release/build
+     - ls -ltrah target/x86_64-unknown-linux-musl/release/deps
      - cargo build --release --target x86_64-unknown-linux-musl
 artifacts:
   files:
