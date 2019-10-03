@@ -1,0 +1,5 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - aws s3 mv resume.json s3://tjtolton.com/resume/resume.json
