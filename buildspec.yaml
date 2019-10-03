@@ -16,5 +16,5 @@ artifacts:
 cache:
   paths:
     - "/root/.cargo/registry/**/*"
-    - "$CODEBUILD_SRC_DIR/resume/target/x86_64-unknown-linux-musl/release/build/**/*"
-    - "$CODEBUILD_SRC_DIR/resume/target/x86_64-unknown-linux-musl/release/deps/**/*"
+    - "resume/target/x86_64-unknown-linux-musl/release/build/**/*"
+    - "resume/target/x86_64-unknown-linux-musl/release/deps/**/*"
