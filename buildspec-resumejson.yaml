@@ -1,5 +1,13 @@
 version: 0.2
 phases:
+  install:
+    runtime-versions:
+      nodejs: 10
   build:
     commands:
-      - aws s3 mv resume.json s3://tjtolton.com/resume/resume.json
+      - npm install -g resume-cli
+      - resume export resume.html
+      - aws s3 mv resume.html s3://tjtolton.com/resume/index.html
+cache:
+  paths:
+    - "/usr/local/lib/node_modules/**/*"
