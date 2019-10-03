@@ -27,6 +27,7 @@ phases:
      - cd resume
 #     - echo "COMPILING BLAH BLAH BLAH ---------------------------------"
      - cargo build --release --target x86_64-unknown-linux-musl
+     - mv target/target/x86_64-unknown-linux-musl/release/resume target/resume
     # - command
   post_build:
     commands:
@@ -43,15 +44,14 @@ phases:
 #    methinks it must be
 artifacts:
   files:
-    - '/root/.cargo/registry/*'
-  name: registry
+   - "$(pwd)/target/resume"
   discard-paths: yes
-#  secondary-artifacts:
-#    cargo:
-#      files:
-#        - "$(pwd)/target/x86_64-unknown-linux-musl/release/resume"
-#      discard-paths: yes
-#      name: resume
+  name: resume
+  secondary-artifacts:
+    cargo:
+      files:
+        - "$(pwd)/target/x86_64-unknown-linux-musl/release/resume"
+      name: build
 
 #cache:
 #  paths:
