@@ -49,9 +49,9 @@ artifacts:
   secondary-artifacts:
     cargo:
       files:
-        - 'registry/*'
+        - '/root/.cargo/registry/*'
       name: registry
-      base-directory: "/root/.cargo"
+      discard-paths: yes
 
 #cache:
 #  paths:
