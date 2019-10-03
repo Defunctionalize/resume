@@ -4,15 +4,13 @@ phases:
     commands:
      - cd resume
      - cargo build --release --target x86_64-unknown-linux-musl
+     - mv target/x86_64-unknown-linux-musl/release/resume resume
 artifacts:
   files:
    - "resume"
   discard-paths: yes
-  base-directory: "$(pwd)/target/x86_64-unknown-linux-musl/release"
   name: resume
 cache:
   paths:
     - "/root/.cargo/registry/**/*"
-    - "resume/target/x86_64-unknown-linux-musl/release/build/**/*"
-    - "resume/target/release/build/**/*"
-    - "resume/target/release/deps/**/*"
+    - "resume/target/**/*"
