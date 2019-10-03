@@ -6,6 +6,8 @@ phases:
      - cd resume
      - cd $CODEBUILD_SRC_DIR_build
      - ls -ltrah
+     - cd codebuild
+     - ls -ltrah
 #     - mkdir target
 #     - "cp $CODEBUILD_SRC_DIR_build target"
 #     - ls -ltrah target
