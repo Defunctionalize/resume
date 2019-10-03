@@ -5,6 +5,7 @@ phases:
      - cd resume
      - mkdir --parents target/x86_64-unknown-linux-musl
 #     - "mv $CODEBUILD_SRC_DIR_cargo/* $_"
+     - ls $CODEBUILD_SRC_DIR_cargo
 #     - ls target/x86_64-unknown-linux-musl
      - echo $_
      - pwd && ls -ltrah
