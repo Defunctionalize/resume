@@ -5,8 +5,8 @@ phases:
       nodejs: 10
   build:
     commands:
-      - npm install -g puppeteer --unsafe-perm=true
-      - npm install -g resume-cli
+      - sudo npm install -g puppeteer --unsafe-perm=true
+      - sudo npm install -g resume-cli
       - resume export resume.html
       - aws s3 mv resume.html s3://tjtolton.com/resume/index.html
 cache:
