@@ -7,11 +7,8 @@ phases:
     commands:
       - npm install puppeteer --unsafe-perm=true
       - npm install resume-cli
-      - npx resume export resume.html
+      - mkdir resume
+      - npx resume export resume/index.html
 artifacts:
   files:
-    - resume.html
-  name: "resume/index.html"
-cache:
-  paths:
-    - "node_modules/**/*"
+    - resume/**/*
