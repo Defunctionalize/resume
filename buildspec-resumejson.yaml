@@ -8,7 +8,10 @@ phases:
       - npm install puppeteer --unsafe-perm=true
       - npm install resume-cli
       - npx resume export resume.html
-      - aws s3 mv resume.html s3://tjtolton.com/resume/index.html
+artifacts:
+  files:
+    - resume.html
+  name: "resume/index.html"
 cache:
   paths:
     - "node_modules/**/*"
