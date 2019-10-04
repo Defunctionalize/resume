@@ -6,5 +6,9 @@ phases:
   build:
     commands:
       - npm install puppeteer --unsafe-perm=true
-      - npx resume-cli export resume.html
+      - npm install resume-cli
+      - npx resume export resume.html
       - aws s3 mv resume.html s3://tjtolton.com/resume/index.html
+cache:
+  paths:
+    - "node_modules/**/*"
