@@ -146,42 +146,5 @@
       "reference": "FSE II, Amazon Alexa: Worked with me at Relay Network."
     }
   ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ],
-      "level": "Master"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Videogame Development",
-      "keywords": [
-        "Videogames"
-      ]
-    }
-  ],
   "meta": {"theme":  "paper"},
-  "education": [
-    {
-      "institution": "Temple University",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ],
-      "startDate": "2011-01-01",
-      "studyType": "Bachelor",
-      "endDate": "2013-01-01",
-      "area": "Accounting"
-    }
-  ],
-  "languages": [
-    {
-      "fluency": "Native speaker",
-      "language": "English"
-    }
-  ]
 }
