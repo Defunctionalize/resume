@@ -9,6 +9,7 @@ phases:
       - npm install resume-cli
       - mkdir resume
       - npx resume export resume/index.html
+      - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths '/resume/**/*'
 artifacts:
   files:
     - resume/**/*
