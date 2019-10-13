@@ -10,7 +10,7 @@ phases:
       - mkdir resume
       - npx resume export resume/index.html
       - sed -i '4 i\<script src="https://tjtolton.com/drift.js"></script>' resume/index.html
-      - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths *
+      - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume*
 artifacts:
   files:
       - resume/**/*
