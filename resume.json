@@ -26,22 +26,30 @@
     "name": "Python",
     "level": "Master"
     
-  },{
+  },,{
+    "name": "Rust",
+    "level": "Intermediate"
+  },
+  {
     "name": "AWS Serverless",
-    "level": "Advanced"
+    "level": "Master",
+    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation"]
     
   },{
-    "name": "Javascript/Nodejs",
-    "level": "Intermediate"
+    "name": "Javascript/Client",
+    "level": "Master",
+    "keywords": ["React", "Nodejs", "Clojurescript", "Vue.js", "Webcomponents"]
     
   },{
     "name": "Clojure",
-    "level": "Master"
+    "level": "Master",
+    "keywords": ["Java", "Datomic"]
     
-  },{
-    "name": "Rust",
-    "level": "Intermediate"
-  }],
+  },,{
+    "name": "Docker",
+    "level": "Advanced"
+  }
+  ],
   "volunteer": [
     {
       "highlights": [],
