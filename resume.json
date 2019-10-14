@@ -144,5 +144,15 @@
       "name": "Stephen Grimes",
       "reference": "FSE II, Amazon Alexa: Worked with me at Relay Network."
     }
+  ],
+  "meta": {"theme":  "paper"},
+  "education": [
+    {
+      "institution": "Temple University",
+      "startDate": "2011-01-01",
+      "studyType": "Bachelor",
+      "endDate": "2013-01-01",
+      "area": "Accounting"
+    }
   ]
 }
