@@ -22,6 +22,30 @@
       "countryCode": "US"
     }
   },
+  "skills": [{
+    "name": "Python",
+    "level": "Master"
+    
+  },{
+    "name": "AWS Serverless",
+    "level": "Advanced"
+    
+  },{
+    "name": "Javascript",
+    "level": "Intermediate"
+    
+  },{
+    "name": "Clojure",
+    "level": "Master"
+    
+  },{
+    "name": "Rust",
+    "level": "Intermediate"
+  },{
+    "name": "C++",
+    "level": "Beginner"
+    
+  }],
   "volunteer": [
     {
       "highlights": [],
