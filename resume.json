@@ -31,7 +31,7 @@
     "level": "Advanced"
     
   },{
-    "name": "Javascript",
+    "name": "Javascript/Nodejs",
     "level": "Intermediate"
     
   },{
@@ -41,10 +41,6 @@
   },{
     "name": "Rust",
     "level": "Intermediate"
-  },{
-    "name": "C++",
-    "level": "Beginner"
-    
   }],
   "volunteer": [
     {
