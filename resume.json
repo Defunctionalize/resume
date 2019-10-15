@@ -96,7 +96,7 @@
       "company": "Relay Network, LLC."
     },
     {
-      "endDate": "2016-02-01",
+      "endDate": "2017-02-01",
       "highlights": [
         "Created Distributed Scheduler API using redis/couchbase",
         "Led daily standups with 8 person team focused horizontal delivery of apps to bank-wide users.",
