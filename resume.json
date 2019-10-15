@@ -33,7 +33,7 @@
   {
     "name": "AWS Serverless",
     "level": "Master",
-    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns"]
+    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
     
   },{
     "name": "Javascript/Client",
@@ -54,7 +54,7 @@
   }, {
     "name": "Data",
     "level": "Advanced",
-    "keywords": ["Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Kafka", "Sns", "S3"]
+    "keywords": ["Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Kafka", "Sns", "S3", "Graphql"]
   }
   ],
   "work": [
