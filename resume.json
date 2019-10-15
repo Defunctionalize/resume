@@ -57,17 +57,6 @@
     "keywords": ["Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Kafka", "Sns", "S3"]
   }
   ],
-  "volunteer": [
-    {
-      "highlights": [],
-      "startDate": "2012-03-20",
-      "organization": "York Literacy Council",
-      "summary": "One on one literacy tutoring for adults in my home city.",
-      "endDate": "2013-06-01",
-      "website": "http://www.yorkliteracy.org/public/",
-      "position": "Volunteer GED/ESL Tutor"
-    }
-  ],
   "work": [
     {
       "endDate": "2019-07-13",
