@@ -9,6 +9,7 @@ phases:
       - npm install --save jsonresume-theme-eloquent
       - node theme.js > resume/index.html
       - sed -i '8 i\<script src="https://tjtolton.com/drift.js"></script>' resume/index.html
+      - sudo yum install -y pandoc
       - pandoc -o resume/tjtolton.docx resume/index.html 
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume*
 artifacts:
