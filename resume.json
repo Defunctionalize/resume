@@ -33,7 +33,7 @@
   {
     "name": "AWS Serverless",
     "level": "Master",
-    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation"]
+    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns"]
     
   },{
     "name": "Javascript/Client",
@@ -45,9 +45,16 @@
     "level": "Master",
     "keywords": ["Java", "Datomic"]
     
-  },,{
+  },{
     "name": "Docker",
     "level": "Advanced"
+  },{
+    "name": "Go",
+    "level": "Beginner"
+  }, {
+    "name": "Data",
+    "level": "Advanced",
+    "keywords": ["Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Kafka", "Sns", "S3"]
   }
   ],
   "volunteer": [
