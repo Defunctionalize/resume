@@ -29,6 +29,9 @@
   },{
     "name": "Rust",
     "level": "Intermediate"
+  },{
+    "name": "C#",
+    "level": "Intermediate"
   },
   {
     "name": "AWS Serverless",
