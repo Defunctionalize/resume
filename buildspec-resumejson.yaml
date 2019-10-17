@@ -16,3 +16,4 @@ artifacts:
   files:
       - resume/**/*
       - drift.js
+      - login.html
