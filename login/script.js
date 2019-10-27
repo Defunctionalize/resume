@@ -4,8 +4,9 @@
         console.warn = console.log;
         console.log("hello");
         try {
-            AWS.config.region = 'us-east-1';
-             AWS.config.credentials= new AWS.CognitoIdentityCredentials({
+		AWS.config.region = 'us-east-1';
+		console.log('about to try the awscognitoidentitycredentials call:');
+		AWS.config.credentials= new AWS.CognitoIdentityCredentials({
                 IdentityPoolId: 'us-east-1:573e1ed2-cc7e-4315-8714-199a170ea0d3',
                 Logins:{"cognito-idp.us-east-1.amazonaws.com/us-east-1_iaCr8Wzlt": (new URLSearchParams(window.location.search)).get("id_token")}
             });
