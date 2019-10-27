@@ -10,7 +10,7 @@
                 Logins:{"cognito-idp.us-east-1.amazonaws.com/us-east-1_iaCr8Wzlt": (new URLSearchParams(window.location.search)).get("id_token")}
             });
             
-            window.location.replace("https://us-east-1.console.aws.amazon.com/cloud9/ide/b14165cc44a14c1fa985e617d4573cf6");
+            window.location.replace("https://us-east-1.console.aws.amazon.com/cloud9/ide/5f616193b5754e1b92efc204a4e48917");
                   
         }
         catch (e) {
