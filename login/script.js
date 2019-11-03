@@ -15,7 +15,7 @@ function test() {
         });
     let refresh = AWS.config.credentials.getPromise();
     refresh.then(() => console.log("creds? ---", AWS.console.credentials.accessKeyId));
-    refresh.err(console.log);
+    refresh.catch(console.log);
     }
     catch (e) {
         console.log(e);
