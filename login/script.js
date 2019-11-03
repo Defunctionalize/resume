@@ -13,7 +13,9 @@ function test() {
             IdentityPoolId: 'us-east-1:573e1ed2-cc7e-4315-8714-199a170ea0d3',
             Logins:{"cognito-idp.us-east-1.amazonaws.com/us-east-1_iaCr8Wzlt": id_token}
         });
-    AWS.config.credentials.get(() => console.log("creds? ---", AWS.console.credentials.accessKeyId));
+    let refresh = AWS.config.credentials.getPromise();
+    refresh.then(() => console.log("creds? ---", AWS.console.credentials.accessKeyId));
+    refresh.err(console.log);
     }
     catch (e) {
         console.log(e);
