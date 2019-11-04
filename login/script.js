@@ -12,17 +12,22 @@ function test() {
         Logins:{"cognito-idp.us-east-1.amazonaws.com/us-east-1_iaCr8Wzlt": id_token}});
       let refresh = AWS.config.credentials.getPromise();
       refresh.then(() => {
-        let lambda = AWS.Lambda();
+        try {
+        console.log("got some creds...")
+        let lambda = new AWS.Lambda();
         lambda.invoke({
           FunctionName: "cloud9-FederationBroker-getSigninUrl-JPLP6TPQKNJX",
-          Payload: {
+          Payload: JSON.stringify({
             sessionId: AWS.config.credentials.accessKeyId,
             sessionKey: AWS.config.credentials.secretAccessKey,
             sessionToken: AWS.config.credentials.sessionToken
-          }
+          })
         }, (err, data) => {
-          window.response = {err: err, data: data}
+          if (err){console.error(err)}
+          let signin = JSON.parse(data.Payload).signin;
+          window.location = signin;
         })
+        } catch (e) {console.log(e)}
       })
     }
     catch (e) {
