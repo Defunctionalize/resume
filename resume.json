@@ -3,8 +3,8 @@
     "email": "tjtolton@gmail.com",
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
-    "summary": "Experienced builder of distributed systems, asynchronous applications, and stable, blinding fast code.  Believes that a good engineering team's core values are Customer Satisfaction, Cadence, and Learning.",
-    "label": "Serverless Full Stack Software Engineer",
+    "summary": "Experienced leader of teams that build scalable distributed systems backed by machine learning models and stable, blindingly fast code.  Believes that a good engineering team's positive feedback loop of results and growth come from the core values of customer mindset, cadence, and learning.",
+    "label": "Software Engineer and Data Scientist",
     "picture": "",
     "website": "http://tylertolton.com",
     "profiles": [
@@ -25,10 +25,9 @@
   "skills": [{
     "name": "Python",
     "level": "Master"
-    
   },{
     "name": "Rust",
-    "level": "Intermediate"
+    "level": "Beginner"
   },{
     "name": "C#",
     "level": "Intermediate"
@@ -129,7 +128,7 @@
       "endDate": "2016-01-01",
       "highlights": [
         "Architected reporting event emission pipeline",
-        "Architected and implemented a GUI based, JSON driven cloud automation framework “BotFactory” - scale tested for use with General Electric cloud computing.",
+        "Architected and implemented a GUI based, JSON driven cloud automation framework 'BotFactory' - scale tested for use with General Electric cloud computing.",
         "Designed unit test implementation strategy around 3 year old legacy code base cloud harvesting engine",
         "Created cloud testing framework tools for use with multiple asynchronous python processes",
         "Designed Clojure based microservice replacement architecture for use with cloud harvesting service.",
@@ -143,9 +142,7 @@
     {
       "endDate": "2015-02-01",
       "highlights": [
-        "Created User Controls and complex animations using JavaScript and Python Kivy",
         "Unit testing using Pycharm Integrated nosetests and coverage, using Mock when needed.",
-        "Developed Login and Account creation feature for Android.",
         "Developed a data migration feature using GZ File Compression and AES 256 encryption.",
         "Modified CSS in order to provide cross-browser integration.",
         "Manipulated JavaScript & jquery code to enhance user functionality with new website.",
