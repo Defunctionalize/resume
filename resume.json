@@ -56,7 +56,7 @@
   }, {
     "name": "Data",
     "level": "Advanced",
-    "keywords": ["Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Kafka", "Sns", "S3", "Graphql"]
+    "keywords": ["Kafka", "Redis", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Sns", "S3", "Graphql"]
   }
   ],
   "work": [
