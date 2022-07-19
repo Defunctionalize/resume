@@ -26,6 +26,9 @@
     "name": "Python",
     "level": "Master"
   },{
+    "name": "Java",
+    "level": "Intermediate"
+  },{
     "name": "Rust",
     "level": "Beginner"
   },{
@@ -56,7 +59,7 @@
   }, {
     "name": "Data",
     "level": "Advanced",
-    "keywords": ["Kafka", "Redis", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Sns", "S3", "Graphql"]
+    "keywords": ["Kafka", "Redis", "Oracle", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Sns", "S3", "Graphql"]
   }
   ],
   "work": [
@@ -64,6 +67,7 @@
       "endDate": "present",
       "highlights": [
         "Authored/Trained/Implemented NLP AI to automatically route support tickets, achieving 90% success rate, $12k in cost reduction per week",
+        "Hand engineered features from Oracle dataset analysis in addition to model generated freetext embeddings",
         "Led Automation Center of Excellence team of 6 to create automation solutions for internal clients",
         "Launched SDLC compliance controlled production services, including Gitlab and AWX",
         "Implemented SCRUM/Agile practices in previously waterfall teams"
