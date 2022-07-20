@@ -160,7 +160,7 @@
       "endDate": "2015-02-01",
       "highlights": [
         "Unit testing using Pycharm Integrated nosetests and coverage, using Mock when needed.",
-        "Developed a data migration feature using GZ File Compression and AES 256 encryption.",
+        "Developed a data migration feature using GZ File Compression and AES 256 encryption."
       ],
       "startDate": "2014-03-01",
       "position": "Python Developer",
@@ -171,7 +171,7 @@
       "highlights": [
         "Implemented LSFR algorithm to generate unique shortcodes for SMS messaging",
         "Architected robustness system for notifications when SMS carrier is unavailable",
-        "Designed and implemented migration framework using petal - migrated from postgres into couchbase",
+        "Designed and implemented migration framework using petal - migrated from postgres into couchbase"
       ],
       "startDate": "2011-12-01",
       "position": "Python/Django/SQL Site Builder",
