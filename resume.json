@@ -3,8 +3,8 @@
     "email": "tjtolton@gmail.com",
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
-    "summary": "Customer Obsession, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performance teams.  At the top of my fields in software engineering, architecture, data science, and team organization, I am uniquely suited to own your next next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
-    "label": "Software Engineer and Data Scientist",
+    "summary": "Customer Obsession, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performant teams.  At the top of my several fields in software engineering, architecture, data science, and team organization, I am uniquely suited to own your next next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
+    "label": "Modeling Focused Machine Learning Engineer and Software Engineer",
     "picture": "",
     "website": "http://tylertolton.com",
     "profiles": [
@@ -22,6 +22,18 @@
       "countryCode": "US"
     }
   },
+  "certificates": [{
+    "name": "AWS Machine Learning Specialty",
+    "date": "2020-10-04",
+    "issuer": "Amazon Web Services Training and Certification",
+    "url": "https://www.credly.com/badges/4d3d8cea-a171-4759-9f49-3890257456a5"
+  },{
+    "name": "Deep Learning Specialization",
+    "date": "2020-02-01",
+    "issuer": "Coursera",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/TX5NKNCE858S"
+  }
+  ],
   "skills": [{
     "name": "Python",
     "level": "Master"
@@ -39,27 +51,33 @@
     "name": "AWS Serverless",
     "level": "Master",
     "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
-    
+
   },{
     "name": "Javascript/Client",
     "level": "Master",
     "keywords": ["React", "Nodejs", "Clojurescript", "Vue.js", "Webcomponents"]
-    
+
   },{
     "name": "Clojure",
     "level": "Master",
     "keywords": ["Java", "Datomic"]
-    
+
   },{
     "name": "Docker",
     "level": "Advanced"
   },{
     "name": "Go",
     "level": "Beginner"
-  }, {
-    "name": "Data",
+  },
+    {
+    "name": "Analytics",
     "level": "Advanced",
-    "keywords": ["Kafka", "Redis", "Oracle", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "Sns", "S3", "Graphql"]
+    "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
+  },
+    {
+    "name": "Data Persistence",
+    "level": "Advanced",
+    "keywords": ["Redis", "Oracle", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
   }
   ],
   "work": [
@@ -73,21 +91,19 @@
         "Implemented SCRUM/Agile practices in previously waterfall teams"
       ],
       "startDate": "2020-03-11",
-      "position": "Data Science and Automation Support",
+      "position": "Senior Machine Learning Engineer",
       "company": "Pfizer, Inc."
     },
     {
       "endDate": "2019-07-13",
       "highlights": [
-        "Authored full suite of 26 AWS Lambda serverless microservices in nodejs, python, and Rust",
-        "Directly engaged in external sales process - qualifying leads, attending tradeshows, fielding late stage tech implementation calls",
-        "Wrote mobile optimised browser client for Ethereum blockchain smart contract using Web3, Ethers.js, Geth, Metamask, Coinbase Wallet",
-        "used AWS APPSync to synchronize blockchain activity with customer admin panel and reporting tool",
-        "Enabled real-time content editing and chat for customer data using AWS serverless websocket API",
-        "Designed and implemented secure single-use \"magiclink\" email-based auth using Lambda, DynamoDB, and SES",
         "Synchronized business data between Salesforce source of truth and DynamoDB operational store",
-        "Deployed and managed secure hosting of 11 custom web apps on AWS Cloudfront CDN backed by S3 static site hosting",
-        "Administrated marketing wordpress website hosting on Elastic Beanstalk featuring secure salesforce connection for lead capture"
+        "Extracted intent features from end user activity sessions on platform",
+        "Created recommendation feature to drive user engagement in liquidity asset platform, enabling 5x increase in average user network size over 4 months",
+        "Authored full suite of 26 AWS Lambda serverless microservices in nodejs, python, and Rust",
+        "Wrote mobile optimised browser client for Ethereum blockchain smart contract using Web3, Ethers.js, Geth, Metamask, Coinbase Wallet",
+        "Enabled real-time content editing and chat for customer data using AWS serverless websocket API",
+        "Designed and implemented secure single-use \"magiclink\" email-based auth using Lambda, DynamoDB, and SES"
       ],
       "startDate": "2018-09-25",
       "summary": "Nth Round is an NEA backed startup that aims to provide a blockchain-powered secure marketplace for the resale of private equity among its clients' shareholders.",
@@ -97,11 +113,8 @@
     {
       "endDate": "2018-06-01",
       "highlights": [
-        "In charge of drafting, publication and distribution of release notes, worked closely with QA, Client Services and Product",
-        "Reviewed and released new software to production using “bake” tasks and other bash scripts which I maintained",
-        "Oversaw smoke testing of newly released code in production environment",
-        "Oversaw biweekly software releases: and drew up release notes for Client Services/Sales",
-        "AWS S3 based SFTP platform for 39 clients, used for triggering automated reports from Looker",
+        "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 50,000 events per day",
+        "Created Entity Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
         "Ran Jupyter based feature demos to internal product strategy teams, sales, and client relationship teams",
         "Containerized 14 service system for rapid local development, images tagged and stored on AWS: ECR",
         "Architected document versioning and archive retrieval system for client defined data.",
@@ -118,7 +131,7 @@
       "highlights": [
         "Created Distributed Scheduler API using redis/couchbase",
         "Led daily standups with 8 person team focused horizontal delivery of apps to bank-wide users.",
-        "Created Event Management AI agent to evaluate and dispatch calculation jobs based company need",
+        "Created Supervised Event Management model to schedule calculation jobs based on history of runtimes",
         "Guided product execution team to new web migration strategy",
         "Provided strategic training to collaborating teams on new web migration strategy",
         "Interfaced daily with customers to support software products"
@@ -148,9 +161,6 @@
       "highlights": [
         "Unit testing using Pycharm Integrated nosetests and coverage, using Mock when needed.",
         "Developed a data migration feature using GZ File Compression and AES 256 encryption.",
-        "Modified CSS in order to provide cross-browser integration.",
-        "Manipulated JavaScript & jquery code to enhance user functionality with new website.",
-        "Develop table less, W3C compliant web sites using CSS, XHTML, Javascript, jQuery and Python."
       ],
       "startDate": "2014-03-01",
       "position": "Python Developer",
@@ -162,9 +172,6 @@
         "Implemented LSFR algorithm to generate unique shortcodes for SMS messaging",
         "Architected robustness system for notifications when SMS carrier is unavailable",
         "Designed and implemented migration framework using petal - migrated from postgres into couchbase",
-        "Started developing web applications with Django 1.4 to  1.7",
-        "Successfully migrated the Django database from SQLite to MySQL with complete data integrity.",
-        "AJAX with jQuery"
       ],
       "startDate": "2011-12-01",
       "position": "Python/Django/SQL Site Builder",
