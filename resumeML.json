@@ -43,7 +43,7 @@
     "keywords": ["W2V", "BERT", "Relu DNN", "RandomForest", "SVM", "KNN"]
   },{
     "name": "Python Libs",
-    "keywords": ["PyTorch", "Pandas", "Numpy", "Sympy", "Sklearn", "Gensim", "fuzzymatcher", "recordlinkage"]
+    "keywords": ["PyTorch", "Pandas", "Numpy", "Sympy", "Sklearn", "Gensim"]
   },{
     "name": "Data Exploration",
     "keywords": ["Matplotlib", "Jupyter", "PCA", "Feature Importance"]
@@ -107,8 +107,8 @@
       "endDate": "2018-06-01",
       "highlights": [
         "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 250,000 events per day",
-        "Created Fuzzy Matching and Record Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
-        "Used Python recordlinkage to generate candidates and pairwise Python fuzzymatcher to score most likely duplicates",
+        "Created Entity Matching report system and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
+        "Used Python to code record linking stage to generate candidates and pairwise matching on use activity to score most likely duplicates",
         "Potential dupes were submitted to external clients for reconciliation and used internally for recommendation"
       ],
       "startDate": "2016-09-01",
