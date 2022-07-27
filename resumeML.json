@@ -35,39 +35,30 @@
   }
   ],
   "skills": [{
-    "name": "Python",
-    "level": "Master"
+    "name": "Coding",
+    "keywords": ["Python", "Clojure(script)", "ECMA6", "Rust", "Java", "C++", "C#", "Go"]
+
   },{
-    "name": "Java",
-    "level": "Intermediate"
+    "name": "Models used in Production",
+    "keywords": ["W2V", "BERT", "Relu DNN", "RandomForest", "SVM", "KNN"]
   },{
-    "name": "Rust",
-    "level": "Beginner"
+    "name": "Python Libs",
+    "keywords": ["PyTorch", "Pandas", "Numpy", "Sympy", "Sklearn", "Gensim", "fuzzymatcher", "recordlinkage"]
   },{
-    "name": "C#",
-    "level": "Intermediate"
+    "name": "Data Exploration",
+    "keywords": ["Matplotlib", "Jupyter", "PCA", "Feature Importance"]
+  },{
+    "name": "ML Frameworks",
+    "keywords": ["PyTorch", "SageMaker", "Dataiku"]
   },
   {
-    "name": "AWS Serverless",
+    "name": "AWS Cloud",
     "level": "Master",
-    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
+    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
 
   },{
-    "name": "Javascript/Client",
-    "level": "Master",
-    "keywords": ["React", "Nodejs", "Clojurescript", "Vue.js", "Webcomponents"]
-
-  },{
-    "name": "Clojure",
-    "level": "Master",
-    "keywords": ["Java", "Datomic"]
-
-  },{
-    "name": "Docker",
-    "level": "Advanced"
-  },{
-    "name": "Go",
-    "level": "Beginner"
+    "name": "Other Cloud",
+    "keywords": ["GCE", "DivvyCloud/Rapid7", "Azure"]
   },
     {
     "name": "Analytics",
@@ -77,19 +68,21 @@
     {
     "name": "Data Persistence",
     "level": "Advanced",
-    "keywords": ["Redis", "Oracle", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
+    "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
   }
   ],
   "work": [
     {
       "endDate": "present",
       "highlights": [
-        "Authored/Trained/Implemented NLP AI to automatically route support tickets, achieving 90% success rate, $12k in cost reduction per week",
-        "Hand wrote preprocessing and feature extraction in pandas",
-        "Hand engineered features from Oracle dataset analysis in addition to model generated freetext embeddings",
-        "Led Automation Center of Excellence team of 6 to create automation solutions for internal clients",
-        "Launched SDLC compliance controlled production services, including Gitlab and AWX",
-        "Implemented SCRUM/Agile practices in previously waterfall teams"
+        "End2End Authored/Trained/Implemented Random Forest Model to automatically route support tickets, achieving 90% success rate, $12k in cost reduction per week",
+        "Coded preprocessing and feature extraction in pandas/numpy/sklearn/gensim",
+        "Trained W2V model from text8 dataset, fine tuned with internal ticket history corpus",
+        "Engineered features from PCA of Oracle dataset along with W2V bag of words freetext embedding",
+        "Implemented CI/CD pipeline for monthly model retraining and comparison analysis using Ansible Tower and bash scripts",
+        "Created Regression testing for CI/CD based on customer reported misroutes, automatically run during deployment",
+        "Roadmapped and coded app DNNs for service health embedding model for outage prediction using PyTorch and jupyter notebooks",
+        "Managed data legacy for service health model using Dataiku pipelines"
       ],
       "startDate": "2020-03-11",
       "position": "Senior Machine Learning Engineer",
@@ -98,13 +91,12 @@
     {
       "endDate": "2019-07-13",
       "highlights": [
-        "Synchronized business data between Salesforce source of truth and DynamoDB operational store",
-        "Extracted intent features from end user activity sessions on platform",
         "Created recommendation feature to drive user engagement in liquidity asset platform, enabling 5x increase in average user network size over 4 months",
-        "Authored full suite of 26 AWS Lambda serverless microservices in nodejs, python, and Rust",
-        "Wrote mobile optimised browser client for Ethereum blockchain smart contract using Web3, Ethers.js, Geth, Metamask, Coinbase Wallet",
-        "Enabled real-time content editing and chat for customer data using AWS serverless websocket API",
-        "Designed and implemented secure single-use \"magiclink\" email-based auth using Lambda, DynamoDB, and SES"
+        "Extracted user features from onboarding survey (generated in typeform) and platform engagement",
+        "Extracted client company  features from onboarding survey (generated in typeform) and user base features",
+        "Used TDF-IDF of customer interests X client company features, used SVM to find cosine similarity, suggested most similar users to company CFO",
+        "Implemented AWS Codebuild pipeline to move model and server code through dev into production",
+        "Created serverless environment segregation system using cloudfront and api gateway to ensure dev calls and prod calls reached different code"
       ],
       "startDate": "2018-09-25",
       "summary": "Nth Round is an NEA backed startup that aims to provide a blockchain-powered secure marketplace for the resale of private equity among its clients' shareholders.",
@@ -114,13 +106,10 @@
     {
       "endDate": "2018-06-01",
       "highlights": [
-        "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 50,000 events per day",
-        "Created Entity Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
-        "Ran Jupyter based feature demos to internal product strategy teams, sales, and client relationship teams",
-        "Containerized 14 service system for rapid local development, images tagged and stored on AWS: ECR",
-        "Architected document versioning and archive retrieval system for client defined data.",
-        "AWS S3 based SFTP platform for 39 clients, used for triggering automated reports from Looker",
-        "Implemented Jenkins based continuous integration pipeline for 6 Clojure, 2 Ansible, 3 Node service"
+        "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 250,000 events per day",
+        "Created Fuzzy Matching and Record Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
+        "Used Python recordlinkage to generate candidates and pairwise Python fuzzymatcher to score most likely duplicates",
+        "Potential dupes were submitted to external clients for reconciliation and used internally for recommendation"
       ],
       "startDate": "2016-09-01",
       "summary": "",
@@ -132,10 +121,7 @@
       "highlights": [
         "Created Distributed Scheduler API using redis/couchbase",
         "Led daily standups with 8 person team focused horizontal delivery of apps to bank-wide users.",
-        "Created Supervised Event Management model to schedule calculation jobs based on history of runtimes",
-        "Guided product execution team to new web migration strategy",
-        "Provided strategic training to collaborating teams on new web migration strategy",
-        "Interfaced daily with customers to support software products"
+        "Coded Python based KNN model workflow predictor to suggest runtime of jobs based on similar job history",
       ],
       "startDate": "2016-02-01",
       "summary": "The Saber2 dev team was an internal development task force charged with modernizing and replacing Bank of America's capital reporting platform, Saber",
