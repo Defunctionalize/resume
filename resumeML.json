@@ -76,7 +76,7 @@
       "endDate": "present",
       "highlights": [
         "Led team of 5 in End2End Training/Implemented/Productionalizing RandomForest to route support tickets, achieving 90% success rate, $12k in cost reduction per week",
-        "Created roadmap artifacts and sprint backlogs",
+        "Created roadmap artifacts and sprint backlogs, led sprint ceremonies and one on one reviews with team",
         "Coded preprocessing and feature extraction in pandas/numpy/sklearn/gensim",
         "Trained W2V model from text8 dataset, fine tuned with internal ticket history corpus",
         "Engineered features from PCA of Oracle dataset along with W2V bag of words freetext embedding",
