@@ -82,7 +82,7 @@
         "Engineered features from PCA of Oracle dataset along with W2V bag of words freetext embedding",
         "Implemented CI/CD pipeline for monthly model retraining and comparison analysis using Ansible Tower and bash scripts",
         "Created Regression testing for CI/CD based on customer reported misroutes, automatically run during deployment",
-        "Led team of 6 in service health outage prediction model built using PyTorch and jupyter notebooks",
+        "Led team of 6 in service health outage data enrichment model built using PyTorch and jupyter notebooks - improving service restoration time on average by 20%",
         "Managed data legacy for service health model using Dataiku pipelines"
       ],
       "startDate": "2020-03-11",
@@ -109,8 +109,8 @@
       "endDate": "2018-06-01",
       "highlights": [
         "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 250,000 events per day",
-        "Created Entity Matching report system and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
-        "Used Python to code record linking stage to generate candidates and pairwise matching on use activity to score most likely duplicates",
+        "Created model based customer disambiguation and deduping report system, allowing 20k new users to be recognized and 70k duplicate users to be removed",
+        "Used Python implemented fuzzy scoring algorithm to identify potential duplicates and to disambiguate records with invalid/phony contact info",
         "Potential dupes were submitted to external clients for reconciliation and used internally for recommendation",
         "Software Production Release Manager and Team Lead for v2 api design team"
       ],
