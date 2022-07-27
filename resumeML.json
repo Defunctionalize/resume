@@ -121,7 +121,7 @@
       "highlights": [
         "Created Distributed Scheduler API using redis/couchbase",
         "Led daily standups with 8 person team focused horizontal delivery of apps to bank-wide users.",
-        "Coded Python based KNN model workflow predictor to suggest runtime of jobs based on similar job history",
+        "Coded Python based KNN model workflow predictor to suggest runtime of jobs based on similar job history"
       ],
       "startDate": "2016-02-01",
       "summary": "The Saber2 dev team was an internal development task force charged with modernizing and replacing Bank of America's capital reporting platform, Saber",
