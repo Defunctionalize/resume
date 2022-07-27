@@ -10,7 +10,7 @@ phases:
       - node theme.js > resume/index.html
       - node themeML.js > resume/ML.html
       # - sed -i '8 i\<script src="https://tjtolton.com/drift.js"></script>' resume/index.html
-      - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /login*
+      - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
 artifacts:
   files:
       - resume/**/*
