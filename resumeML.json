@@ -82,7 +82,7 @@
         "After discovering model performed best on english sentences, wrote multi-threaded python code to pass dataset freetext fields though internal company translation API using requests library",
         "Additionally created the RESTful inference interface hosted via a python Flask app deployed onto load balanced production servers",
         "Trained W2V model from text8 dataset using gensim, fine tuned with internal ticket history corpus.  Adjusted hyperparameters and measured feature importance to find optimal embedding size",
-        "Authored Ansible Playbooks which captured code changes and deployed models to development environment automatically and, when SDLC approved, promoted them to production apps behind blue/green sequence",
+        "Authored Ansible Playbooks which captured code changes and deployed models to development environment automatically and, when SDLC approved, promoted them to production behind blue/green sequence",
         "Implemented automated pipeline for monthly model retraining and comparison analysis using Ansible Tower and bash scripts",
         "Created Regression test suite based on customer reported misroutes, automatically run during deployment, gated deployment behind score thresholds, and sent emails to stakeholders",
         "After explosive growth in ticket volume due to Pfizer's role in the pandemic, re-engineered freetext embeddings using BERT model to capture more complex semantics",
