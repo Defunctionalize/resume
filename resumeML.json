@@ -86,7 +86,7 @@
         "Project 2: Led team of 6 in service health outage data enrichment model built using PyTorch and jupyter notebooks - improving service restoration time on average by 20%",
         "Drew up ML feature roadmaps in coordination with team of over 100 personnel with director level stakeholders across 6 different service towers responsible for all of Pfizer's critical lines of business",
         "Explored features from post ingestion analytics in jupyter notebooks with Python 3.",
-        "Evaluated multiple models to create feature embeddings, including simple logistic regressors, additive trees, and DNNs - found DNN to be the most effective",
+        "Delegated implementation of k means model code to cluster historical failure events, compare analytic stream state to clusters",
         "Used Dataiku framework to engineer flows for training data ingestion, model versioning, and production inference",
         "Roadmapped feature growth plans for service outage prediction"
       ],
