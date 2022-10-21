@@ -1,3 +1,38 @@
+Divvy
+Hired Peter Nelgrove, gave him ownership of product bot factory
+Worked Overtime on phone calls explaining SDK for divvycloud product
+Dockerized application for the first time
+gave employee feedback that they were too focused on perfection at the expense of results
+
+Bank Of America
+Built scheduler
+split team into ops shifts for prod deployment support window
+
+Relay Network
+Green team liason-
+ contractor teams didn't have maangement trust, so I intervened to create communication, attended both standups, called out in advance when our teams were late in delivering to QA
+
+Nth Round
+
+
+Pfizer
+credentials management / epv at pfizer - managing expectations
+taught CI/CD school
+
+
+
+
+ML shit
+Authored/Trained/Implemented NLP AI to automatically route support tickets, achieving 90% success rate, $12k in cost reduction per week
+Created recommendation feature to drive user engagement in liquidity asset platform, enabling 5x increase in average user network size over 4 months
+Created Entity Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed
+Created Supervised Event Management model to schedule calculation jobs based on history of runtimes
+
+
+CO1 - bad interaction with customer stories
+
+
+
 
 Customer Obsession________________________________________________ 2
 How do you develop client relationships?
@@ -197,7 +232,7 @@ Tell me about a time when you went way beyond the scope of the project and deliv
 Give me an example of a radical approach to a big problem you proposed. What was the problem and why did you feel it required a completely different way of thinking about it? Was your approach successful? What would you do differently?
 How do you drive adoption for your vision/ideas? How do you know how well your idea or vision has been adopted by other teams or partners? Give a specific example highlighting one of your ideas.
 Tell me about time you were working on an initiative or goal and saw an opportunity to do something much bigger than the initial focus.
-Tell me about a time you looked at a key process that was worki ng well and questioned whether it was still the right one. What assumptions were you questioning and why? Did you end up making a change to the process?
+Tell me about a time you looked at a key process that was working well and questioned whether it was still the right one. What assumptions were you questioning and why? Did you end up making a change to the process?
 
 Bias for Action_____________________________________________________ 15
 Give me an example of a calculated risk that you have taken where speed was critical. What was the situation and how did you handle it? What steps did you take to mitigate the risk? What was the outcome?
@@ -229,7 +264,7 @@ Tell me about a time you had to earn trust quickly.
 Describe a time when you significantly contributed to improving morale and productivity on your team. What were the underlying problems and their causes? How did you prevent them from negatively impacting the team in the future?
 Give an example of a time where you were not able to meet a commitment to a team member. What was the commitment and what prevented you from meeting it? What was the outcome and what did you learn from it?
 Tell me about a piece of direct feedback you recently gave to a colleague. How did he or she respond?
-How do you like to receive feedback  from coworkers or managers?
+How do you like to receive feedback from coworkers or managers?
 Tell me about a time you had to communicate a big change in direction for which you anticipated people would have a lot of concerns. How did you handle questions and/or resistance? Were you able to get people comfortable with the change?
 Tell me about a time when someone (peer, teammate, supervisor) criticized you about a piece of work/analysis that you delivered. How did you react? What was the outcome?
 How do you convince someone who is resistant to what you’re trying to do?

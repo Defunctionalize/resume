@@ -1,0 +1,279 @@
+Experience
+===========================
+How to prep for this section of your interview
+This part of your discussion will focus on situational questions. For example, your
+interviewer will ask questions like, “Can you provide an example of...?” or “Tell me
+about a time that...?”. Your interviewer will seek to understand the types of roles
+you have held, the breadth and depth of your responsibilities, and the complexity of
+the projects you’ve worked on; this is your opportunity to showcase your expertise.
+• Technical breadth and depth – At Meta, we recognize the importance of
+collaboration across multiple teams and individuals, so talk about how your
+work has spanned across multiple teams and/or iterations.
+• Technical leadership & project management skills – think about your role in
+the setup, execution and delivery of a project. We’re looking to understand
+your involvement in all stages of a project, from initial feasibility & scoping to
+production & maintenance.
+• Growing those around you - We’re looking for examples of proactive technical
+mentorship, appropriate task distribution, and an empathy-first approach to
+collaborating with others.
+
+• Can you tell me about your current project?
+• Team size, scope, impact?
+• Technical problems?
+• Collaboration with other teams?
+• Tell me about a difficult problem you faced and how you solved it.
+• Do you set the team direction? How do you do this?
+• How do you mentor engineers on this project?
+• How much time do you spend hands on? How do you keep up to date?
+• Can you tell me about the most successful project you've completed?
+• How do you utilize data to:
+    • Explain technical concepts
+    • Provide feedback to others
+    • Prioritize tasks
+
+
+Agility
+• Describe a situation when you made a mistake, and what you learned from it.
+• Can you tell me about a project you worked on that was failing and you turnedaround?
+• Describe a time when you had to apply your existing experience in a new anddifferent situation.
+• Can you tell me about how you've grown people in your team?
+• What's a problem you discovered which wasn't already being worked on?
+• What's an example of a product / business decision you disagreed with?
+• What's an example of upward feedback that you've given to your manager?
+• What are your personal gaps and growth areas?
+• What was the toughest feedback you have received?
+
+Motivation
+• Tell me about the different transitions you made in your career and why you choose these particular paths.
+• What are you looking for in your next career step?
+• Why are you interested in this role, why now?
+• What inspires you in your work, and what drains you?
+• How do you think this role would be different from your current role?
+• Why did you / would you leave your current / most recent company?
+
+
+
+Tell me about a time when you were not able to meet a time commitment. What prevented you from meeting it? What was the outcome and what did you learn from it?
+Tell me about a project where you had a failure?  How did you go about it?
+
+1 - autosys + internal tools vs insisting on modernizing
+2 - (X team queue backlog because I was working on solving dead letter queue)
+3 - (tickets stopped predicting accurately)
+
+
+Let’s say you’re working on a major project and you’re in the weeds. How do you find your way out?
+Tell me about a situation where you had to solve a difficult problem
+
+Tell me about a time when you came up with a new approach to a problem.
+Give me an example of a time when you had to pitch an idea to gain someone's commitment.
+Example when you helped drive a proposal to a client
+Give me an example of a risk you took
+Tell me about a time when you took the lead on a difficult project
+What's your greatest strength? And weakness?
+Tell me about a team project you worked on
+Explain your current role.
+Tell me about a time when your project took a turn for the worse and how you managed the situation, how did you align with everyone.
+
+
+- Give me an example of a time you faced a conflict while working on a team. How did you handle that?
+Tell me about a time when you worked with a difficult team member.
+Tell me about a time when you coached a low performer?
+Tell me about a team project at one of your earlier companies
+Example of a time when you were given a task that involved working with someone outside your team.
+
+We all deal with difficult customers from time to time. Tell me about a challenging client-facing situation and how you handled it.
+
+
+
+Everyone starts somewhere. Talk about a time when you were new on the job and had a lot to learn. How did you manage that?
+
+
+
+3-5 anecdotes about project failures and personal weaknesses and being in over my head -- with ML
+
+scenario -
+we had a data input for our data enrichment project
+
+
+
+4-6 anecdotes showcasing my strengths, successes, and initiatives -- with ML
+(some of them should be about near failures which turned around)
+
+
+
+
+2/3 stories about teamwork based ML stuff (easy)
+
+~2 stories about customer interactions with ML
+
+~3 stories about my career alignment with facebook wrt ML
+
+Why Facebook
+How do you see yourself contributing to Facebook's bigger mission
+
+
+
+EKS brought in Raghu for help
+    kubernetes story in over my head in developing inference engine built in kubernetes - brought in Raghu to help out
+
+customer wasn't able to log in to deliver important update - failure story
+
+Authored Ansible Playbooks
+
+stories
+model was underperforming due to freetext being in english, so i wrote a
+
+
+my strength:
+I am an all rounder - I have data science, architecture, and product led growth experience - allows me agility in connecting the big picture of business value with the fine details of technical execution.  this translates concretely to fewer rounds of revision and faster time to market
+for instance:
+we were building an application and discovered that it was underperforming on data in foreign languages, meaning we needed the data to be translated in training and at inference time.  I knew that our direction was to support our i
+
+
+in my job at nthround, I knew our mission was to democratize the exchange of private equity, and I knew that we were operating in an ambiguously regulated environment.  Per our interpretation of SEC requirements, CFO's need to be the ones to initiate a relationship with users.
+Knowing this, I proposed an inverse reccomendation engine, where we reccommended customers to the owners of products.  And I also knew that CFO's want to limit their equity platform to users most likely to take action on their stocks,
+so I ranked the candidates suggested according to their level of activity on the platform and was able to write the feature on my own and demo it in my proposal, leading to quick adoption
+
+my weakness:
+as an all rounder, I am vulnerable to a larger class of mistakes.  For instance, while I have the technical depth to see future shortcomings of MVP's I'm sensitive to the priority of making a sale or engaging the early feedback of a stakeholder, or of prioritizing frugality, if thats part of my company's mission.
+for instance:
+<autosys project problem> -- probably too long.  lets try another partial win
+
+i lack technical sales experience - the ability to build pitch decks and build direct sales collateral is an invaluable skill to department leaders and company owners
+building a pitch deck for the enrichment and outage recognition service took too long
+
+after I had laid out the initial plan for our failure event enrichment system we needed to present it to procure budget.  preparing for this meeting took a lot of time back and forth with our department head
+as I laid out strategy and documentation and we brought in a techincal writer to hhelp build a pitch deck.  If I had more skill around
+
+
+my weakness:
+I dont particularly believe in the value of software estimation, and to be frank it is not one of my core competencies.  I can roadmap particularly well - I can set up a build schedule which prioritizes early project value and customer feedback and produces a cadence of features, but estimating my own time on
+completing a project...
+I make sure this is protected against these scenarios by always having consensus among multiple engineers
+
+as an all rounder, I am vulnerable to a larger class of mistakes.  For instance, while I have the technical depth to see future shortcomings of MVP's I'm sensitive to the priority of making a sale or engaging the early feedback of a stakeholder, or of prioritizing frugality, if thats part of my company's mission.
+for instance:
+
+
+
+
+
+"Project 1: Led team of 5 in building RandomForest model to route support tickets, achieving 90% success rate, $12k in cost reduction per week",
+"Negotiated scope and timelines with product owners, achieved buy in on roadmaps and sprint backlogs, led sprint ceremonies and conducted one on one reviews with team",
+"Personally Performed business-logic-based and statistical feature engineering to identify 15 extracted columns concatenated with a 300 vector freetext embedding",
+"Hand wrote highly parallelized python preprocessing code to filter, normalize, deduplicate, tokenize and resample training data using pandas, numpy, swifter and dask",
+"Wrote core python decorator based logging modules such that all developer coded model training steps became observable and actionable in case of failure or underperformance",
+"After discovering model performed best on english sentences, wrote multi-threaded python code to pass dataset freetext fields though internal company translation API using requests library",
+"Additionally created the RESTful inference interface hosted via a python Flask app deployed onto load balanced production servers",
+"Trained W2V model from text8 dataset using gensim, fine tuned with internal ticket history corpus.  Adjusted hyperparameters and measured feature importance to find optimal embedding size",
+"Authored Ansible Playbooks which captured code changes and deployed models to development environment automatically and, when SDLC approved, promoted them to production behind blue/green sequence",
+"Implemented automated pipeline for monthly model retraining and comparative analysis using Ansible Tower and bash scripts",
+"Created Regression test suite based on customer reported misroutes, automatically run during deployment, gated deployment behind score thresholds, and sent emails to stakeholders",
+"After explosive growth in ticket volume due to Pfizer's role in the pandemic, re-engineered freetext embeddings using BERT model to capture more complex semantics",
+"Project 2: Led team of 6 in service health outage data enrichment model built using PyTorch and jupyter notebooks - improving service restoration time on average by 20%",
+"Drew up ML feature roadmaps in coordination with team of over 100 personnel with director level stakeholders across 6 different service towers responsible for all of Pfizer's critical lines of business",
+"Explored features from post ingestion analytics in jupyter notebooks with Python 3.",
+"Evaluated multiple models to create feature embeddings, including simple logistic regressors, additive trees, and DNNs - found DNN to be the most effective",
+"Used ML Framework Dataiku to engineer flows for training data ingestion, model versioning, and production inference",
+"Roadmapped feature growth plans for service outage prediction"
+
+"Synchronized business data between Salesforce source of truth and DynamoDB operational store",
+"Extracted intent features from end user activity sessions on platform",
+"Created recommendation feature to drive user engagement in liquidity asset platform, enabling 5x increase in average user network size over 4 months",
+"Authored full suite of 26 AWS Lambda serverless microservices in nodejs, python, and Rust",
+"Wrote mobile optimised browser client for Ethereum blockchain smart contract using Web3, Ethers.js, Geth, Metamask, Coinbase Wallet",
+"Enabled real-time content editing and chat for customer data using AWS serverless websocket API",
+"Designed and implemented secure single-use \"magiclink\" email-based auth using Lambda, DynamoDB, and SES"
+
+"Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 250,000 events per day",
+"Created model based customer disambiguation and deduping report system, allowing 20k new users to be recognized and 70k duplicate users to be removed",
+"Used Python implemented fuzzy scoring algorithm to identify potential duplicates and to disambiguate records with invalid/phony contact info",
+"Potential dupes were submitted to external clients for reconciliation and used internally for recommendation",
+"Software Production Release Manager and Team Lead for v2 api design team"
+
+
+
+Agility
+• Describe a situation when you made a mistake, and what you learned from it.
+
+
+
+The context is the AI for internal support routing tickets I've mentioned.  When we first built the AI, we trained it with an extract of the last 1 year of tickets, excluding the most recent month.
+After that we set up quarterly retraining of the model and I created a time decay on relvancy of tickets.  What I failed to do, however, was restrict the test set to the most recent weeks.  In other words, the test split included
+data from throughout the previous year.  As we automatically selected the model with the highest performing hyperparameters, this would occasionally select the wrong model and performance in production would degrade.
+Because we directly replaced the previous model, it was difficult to tell if this was the result of a problem or the tickets were just becoming more complex (it was the pandemic and volume was increasing drastically)
+I learned 2 key things there, one is, obviously, is that classifiers need train/test splits that capture the need to predict new information from old data and 2 - the value of an a/b system.
+we needed to keep the old model serving the majority of the tickets until we could verify the success of the new model.
+
+
+
+
+• Can you tell me about a project you worked on that was failing and you turnedaround?
+Gitlab was being set up as a repository for source code.  I was brought in to work on it when the lead engineer had to be moved onto other internal projects (as this was the place we were planning to move our CI/CD code to).
+the reason the project was running massively behind because we were trying to
+
+• Describe a time when you had to apply your existing experience in a new and different situation.
+we had a service health monitoring platform and we were tasked with providing a model to enrich outage tickets with any context that could help expedite service restoration.
+There was no real way to tell what information would be helpful to service restoration,  We needed some way to detect what information was relevant to a particular failure.  There were a number of different apps on the platform, all with different resolution types.
+
+took resolution codes for a particular incident and mapped it back to the states that were present when the service was reported as failing
+
+
+
+• Can you tell me about how you've grown people in your team?
+when building the CI/CD regression suite, a developer wasnt familiar with linux...
+
+• What's a problem you discovered which wasn't already being worked on?
+A| our downstream accuracy was suffering markedly relative to our results in training and it was considered just part of the complexity of the problem
+B| model performance degraded as ticket volumes increased.  It was subtle, but I began inspecting the failed queries and noted that word order was often important to which queue was resolving the ticket -- "my laptop was broken, it was fixed by the helpdesk, but now I'm locked out".
+   So I used a BERT model to generate embeddings
+C |
+
+• What's an example of a product / business decision you disagreed with?
+
+• What's an example of upward feedback that you've given to your manager?
+
+
+• What are your personal gaps and growth areas?
+• What was the toughest feedback you have received?
+"Stop thinking like an engineer"
+hypothetical
+
+
+failed to set retraining against most recent data
+wrote multithreaded translation script script to improve model performance
+
+feedback I have given to an underperforming employee
+"it is not sufficient to call a production bug fixable if we know how to repair service but not why the failure occurred"
+
+
+product/business decision I disagreed with
+
+personal gaps and growth areas
+
+example of roadmapping
+one of our stakeholder sets was the inventory managemement team as we were predicting metadata for them.  I created a roadmap view for them in powerpoint
+that laid 4 major phases:  data analysis, naive model performance,
+
+denali
+how to decide initial success target?
+performed initial classification using random forest to show feature importance and evaluate success
+
+estimated 3.5e5 ticket / month 1.1 mil/year
+
+50,000 tickets month tickets per month -
+1.5m/year - 15m$/yr
+
+
+weaknesses and growth areas
+sales and pitch training - being able to create persuasive decks and documentation is skill that is vital for
+
+
+product or business decision I have disagreed with:
+
+
+
+challenging/difficult problem you solved
+when ticket volume increased 10x and new queues were added, we faced a cold start problem and information was more complicated
+my job was to update the model to restore its accuracy,
+I upweighted the new queues proportionally to their frequency since their first appearance, and retrained the embeddings using bert to capture deeper semantic meaning

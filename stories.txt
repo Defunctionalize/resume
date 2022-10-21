@@ -9,8 +9,10 @@ Built scheduler
 split team into ops shifts for prod deployment support window
 
 Relay Network
+reinvented x team role
 Green team liason-
  contractor teams didn't have maangement trust, so I intervened to create communication, attended both standups, called out in advance when our teams were late in delivering to QA
+convinced to switch to couchbase
 
 Nth Round
 
@@ -346,3 +348,7 @@ About the world
 As you conduct internal and external business activities, how do you promote and maintain social, ethical, and organizational norms?
 Tell me about how you think about your work impacting the world.
 Tell me about a time where you failed to anticipate the secondary effects of a project you worked on. How did you prevent this from happening in future projects?
+
+
+
+
