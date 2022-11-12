@@ -40,10 +40,10 @@
 
   },{
     "name": "Models used in Production",
-    "keywords": ["W2V", "BERT", "Relu MLP", "RandomForest", "XLM", "DECOC"]
+    "keywords": ["BERT", "Relu MLP Softmax", "RandomForest", "OVA Logistic Regression", "W2V", "K Means"]
   },{
     "name": "Python Libs",
-    "keywords": ["JAX", "Keras", "Tensorflow","PyTorch", "Sklearn"]
+    "keywords": ["JAX", "FLAX", "Optax", "Tensorflow","PyTorch", "Sklearn"]
   },{
     "name": "Data Exploration",
     "keywords": ["Matplotlib", "Jupyter", "What-If", "SHAP"]
