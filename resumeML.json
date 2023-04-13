@@ -176,6 +176,13 @@
   ],
   "meta": {"theme":  "paper"},
   "education": [
+     {
+      "institution": "University of Colorado Boulder",
+      "startDate": "2023-01-16",
+      "studyType": "Masters of Science in Data Science",
+      "endDate": "2024-07-18",
+      "area": "Accounting"
+    },
     {
       "institution": "Temple University",
       "startDate": "2011-01-01",
