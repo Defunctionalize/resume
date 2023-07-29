@@ -4,7 +4,7 @@
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
     "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performant teams.  Having been surrounded by and partnered with the very best in the fields of software, product led growth, data science, and team organization, I am uniquely positioned to help bring to life your next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
-    "label": "Modeling Focused Machine Learning Engineer and Software Engineer",
+    "label": "Modeling Focused Machine Learning Engineer",
     "picture": "",
     "website": "http://tylertolton.com",
     "profiles": [
@@ -51,26 +51,26 @@
     "name": "ML Frameworks",
     "keywords": ["SageMaker", "Dataiku", "TFX"]
   },
-  {
-    "name": "AWS Cloud",
-    "level": "Master",
-    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
+    {
+      "name": "AWS Cloud",
+      "level": "Master",
+      "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
 
-  },
+    },
     {
-    "name": "Data Event Product Tools",
-    "level": "Advanced",
-    "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
-  },
+      "name": "Data Event Product Tools",
+      "level": "Advanced",
+      "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
+    },
     {
-    "name": "Data Persistence",
-    "level": "Advanced",
-    "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
-  }
+      "name": "Data Persistence",
+      "level": "Advanced",
+      "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
+    }
   ],
   "work": [
     {
-      "endDate": "present",
+      "endDate": "",
       "highlights": [
         "Project 1: Led team of 5 in building NLP imbalanced data classifier to route support tickets, achieving 90% success rate, $6k/day value generated",
         "Wrote timeline/milestone/roadmap artifacts from stakeholder interviews",
@@ -176,7 +176,7 @@
   ],
   "meta": {"theme":  "paper"},
   "education": [
-     {
+    {
       "institution": "University of Colorado Boulder",
       "startDate": "2023-01-16",
       "studyType": "Masters of Science",

@@ -3,7 +3,7 @@
     "email": "tjtolton@gmail.com",
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
-    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performant teams.  Having been surrounded by and partnered with the very best in the fields of software, product led growth, data science, and team organization, I am uniquely positioned to help bring to life your next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
+    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership. Successful in connecting business outcomes with high-performing teams. Expertise in software, product led growth, data science, and team organization.",
     "label": "Modeling Focused Machine Learning Engineer",
     "picture": "",
     "website": "http://tylertolton.com",
@@ -40,10 +40,10 @@
 
   },{
     "name": "Models used in Production",
-    "keywords": ["BERT", "Relu MLP Softmax", "RandomForest", "OVA Logistic Regression", "W2V", "K Means"]
+    "keywords": ["XLM-Roberta", "FFNN + Softmax Classifier", "RandomForest", "OVA Logistic Regression", "W2V", "K Means"]
   },{
     "name": "Python Libs",
-    "keywords": ["JAX", "FLAX", "Optax", "Tensorflow","PyTorch", "Sklearn"]
+    "keywords": ["JAX", "FLAX", "Optax", "Tensorflow", "PyTorch", "Sklearn"]
   },{
     "name": "Data Exploration",
     "keywords": ["Matplotlib", "Jupyter", "What-If", "SHAP"]
@@ -53,19 +53,16 @@
   },
     {
       "name": "AWS Cloud",
-      "level": "Master",
-      "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
+      "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "S3", "Cloudformation", "Sns", "Appsync"]
 
     },
     {
       "name": "Data Event Product Tools",
-      "level": "Advanced",
       "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
     },
     {
-      "name": "Data Persistence",
-      "level": "Advanced",
-      "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
+      "name": "Persistence",
+      "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3"]
     }
   ],
   "work": [
@@ -174,7 +171,6 @@
       "company": "Independent Contractor"
     }
   ],
-  "meta": {"theme":  "paper"},
   "education": [
     {
       "institution": "University of Colorado Boulder",
