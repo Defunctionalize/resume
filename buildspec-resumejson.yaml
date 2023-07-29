@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 12
+      nodejs: 18
     commands:
       # Ensure that we have the necessary tools installed
       - npm install -g resume-cli
@@ -13,10 +13,10 @@ phases:
     commands:
       - mkdir resume
       # Generate the HTML version of the resume
-      - resume export resume/index.html --theme even
+      - resume export index.html --theme even
 
       # Generate the PDF version of the resume
-      - resume export resume/ML.pdf --theme even --format pdf
+      - resume export ML.pdf --theme even --format pdf
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
 
 artifacts:
