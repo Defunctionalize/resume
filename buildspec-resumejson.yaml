@@ -13,12 +13,12 @@ phases:
 
       # Ensure that we have the necessary tools installed
       - npm install -g resume-cli
-      - npm install jsonresume-theme-el-santo  # Install theme locally instead of globally
       - mkdir resume
 
   build:
     commands:
       # Generate the HTML version of the resume
+      - npm install jsonresume-theme-el-santo  # Install theme locally instead of globally
       - resume export resume/index.html --theme ./node_modules/jsonresume-theme-el-santo
 
       # Generate the PDF version of the resume
