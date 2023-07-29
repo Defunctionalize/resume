@@ -17,7 +17,7 @@ phases:
       - mkdir resume
       -
       # Add --no-sandbox option to Puppeteer launch config
-      - "sed -i 's/puppeteer.launch({});/puppeteer.launch({args: [\"--no-sandbox\"]});/g' /usr/local/lib/node_modules/resume-cli/node_modules/html-pdf-chrome/lib/chrome.js"
+      - "sed -i 's/puppeteer.launch()/puppeteer.launch({args: [\"--no-sandbox\"]})/g' /usr/local/lib/node_modules/resume-cli/node_modules/export-resume/index.js"
 
   build:
     commands:
