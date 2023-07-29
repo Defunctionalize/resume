@@ -1,16 +1,22 @@
 version: 0.2
 
+
 phases:
   install:
     runtime-versions:
       nodejs: 18
+    commands:
+      # Update packages and Install necessary libraries for Puppeteer
+      - yum update -y
+      - yum install -y libXcomposite libXi libXtst cups-libs libXScrnSaver alsa-lib atk at-spi2-atk pango gtk3
 
+      # Ensure that we have the necessary tools installed
+      - npm install -g resume-cli
+      - npm install jsonresume-theme-straightforward  # Install theme locally instead of globally
+      - mkdir resume
 
   build:
     commands:
-      - mkdir resume
-      - npm install -g resume-cli
-      - npm install jsonresume-theme-straightforward
       # Generate the HTML version of the resume
       - resume export resume/index.html --theme ./node_modules/jsonresume-theme-straightforward
 
