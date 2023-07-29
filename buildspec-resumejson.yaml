@@ -9,6 +9,7 @@ phases:
       # Update packages and Install necessary libraries for Puppeteer
       - yum update -y
       - yum install -y libXcomposite libXi libXtst cups-libs libXScrnSaver alsa-lib atk at-spi2-atk pango gtk3
+      - yum install -y mesa-libgbm  # Install the missing libgbm library
 
       # Ensure that we have the necessary tools installed
       - npm install -g resume-cli
