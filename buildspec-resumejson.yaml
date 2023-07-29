@@ -13,16 +13,16 @@ phases:
 
       # Ensure that we have the necessary tools installed
       - npm install -g resume-cli
-      - npm install jsonresume-theme-business-professional-compact  # Install theme locally instead of globally
+      - npm install jsonresume-theme-onepage  # Install theme locally instead of globally
       - mkdir resume
 
   build:
     commands:
       # Generate the HTML version of the resume
-      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-business-professional-compact
+      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-onepage
 
       # Generate the PDF version of the resume
-      - resume export resume/ML.pdf --theme ./node_modules/jsonresume-theme-business-professional-compact --format pdf
+      - resume export resume/ML.pdf --theme ./node_modules/jsonresume-theme-onepage --format pdf
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
 
 artifacts:
