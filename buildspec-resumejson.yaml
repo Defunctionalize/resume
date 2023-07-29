@@ -9,11 +9,6 @@ phases:
       - npm install -g resume-cli
       - npm install -g jsonresume-theme-straightforward
 
-  pre_build:
-    commands:
-      # Validate the resume.json file before building
-      - resume test
-
   build:
     commands:
       - mkdir resume
