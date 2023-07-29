@@ -33,7 +33,9 @@ artifacts:
     - resume/**/*
 #    - drift.js
 #    - login/**/*
-
+env:
+  variables:
+    RESUME_PUPPETEER_NO_SANDBOX: "1"
 
 #version: 0.2
 #phases:
