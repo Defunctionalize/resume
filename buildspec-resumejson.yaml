@@ -10,12 +10,12 @@ phases:
     commands:
       - mkdir resume
       - npm install -g resume-cli
-      - npm install  jsonresume-theme-even
+      - npm install  jsonresume-theme-straghtforward
       # Generate the HTML version of the resume
-      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-even
+      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-straghtforward
 
       # Generate the PDF version of the resume
-      - resume export resume/ML.pdf --theme ./node_modules/jsonresume-theme-even --format pdf
+      - resume export resume/ML.pdf --theme ./node_modules/jsonresume-theme-straightforward --format pdf
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
 
 artifacts:
