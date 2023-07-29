@@ -7,16 +7,16 @@ phases:
     commands:
       # Ensure that we have the necessary tools installed
       - npm install -g resume-cli
-      - npm install -g jsonresume-theme-straightforward
+      - npm install -g jsonresume-theme-even
 
   build:
     commands:
       - mkdir resume
       # Generate the HTML version of the resume
-      - resume export resume/index.html --theme straightforward
+      - resume export resume/index.html --theme even
 
       # Generate the PDF version of the resume
-      - resume export resume/ML.pdf --theme straightforward --format pdf
+      - resume export resume/ML.pdf --theme even --format pdf
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
 
 artifacts:
