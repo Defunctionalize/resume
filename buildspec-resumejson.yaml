@@ -4,14 +4,13 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-    commands:
-      # Ensure that we have the necessary tools installed
-      - npm install -g resume-cli
-      - npm install -g jsonresume-theme-even
+
 
   build:
     commands:
       - mkdir resume
+      - npm install -g resume-cli
+      - npm install -g jsonresume-theme-even
       # Generate the HTML version of the resume
       - resume export index.html --theme even
 
