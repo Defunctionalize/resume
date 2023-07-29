@@ -10,9 +10,9 @@ phases:
     commands:
       - mkdir resume
       - npm install -g resume-cli
-      - npm install  jsonresume-theme-straghtforward
+      - npm install jsonresume-theme-straightforward
       # Generate the HTML version of the resume
-      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-straghtforward
+      - resume export resume/index.html --theme ./node_modules/jsonresume-theme-straightforward
 
       # Generate the PDF version of the resume
       - resume export resume/ML.pdf --theme ./node_modules/jsonresume-theme-straightforward --format pdf
