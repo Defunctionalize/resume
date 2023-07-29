@@ -3,7 +3,7 @@
     "email": "tjtolton@gmail.com",
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
-    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performant teams.  Having been surrounded by and partnered with the very best in the fields of software, product led growth, data science, and team organization, I am uniquely suited to own your next next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
+    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership.  These values define the critical pathway through which I have been successful in connecting business outcomes with highly motivated, highly performant teams.  Having been surrounded by and partnered with the very best in the fields of software, product led growth, data science, and team organization, I am uniquely positioned to help bring to life your next jaw dropping user experience or hockeysticking revenue stream - powered by data and delivered at scale.",
     "label": "Modeling Focused Machine Learning Engineer and Software Engineer",
     "picture": "",
     "website": "http://tylertolton.com",
@@ -35,61 +35,60 @@
   }
   ],
   "skills": [{
-    "name": "Python",
-    "level": "Master"
-  },{
-    "name": "Java",
-    "level": "Intermediate"
-  },{
-    "name": "Rust",
-    "level": "Beginner"
-  },{
-    "name": "C#",
-    "level": "Intermediate"
-  },
-  {
-    "name": "AWS Serverless",
-    "level": "Master",
-    "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Alexa", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
+    "name": "Coding",
+    "keywords": ["Python", "Clojure(script)", "ECMA6", "Rust", "Java", "C++", "C#", "Go"]
 
   },{
-    "name": "Javascript/Client",
-    "level": "Master",
-    "keywords": ["React", "Nodejs", "Clojurescript", "Vue.js", "Webcomponents"]
-
+    "name": "Models used in Production",
+    "keywords": ["BERT", "Relu MLP Softmax", "RandomForest", "OVA Logistic Regression", "W2V", "K Means"]
   },{
-    "name": "Clojure",
-    "level": "Master",
-    "keywords": ["Java", "Datomic"]
-
+    "name": "Python Libs",
+    "keywords": ["JAX", "FLAX", "Optax", "Tensorflow","PyTorch", "Sklearn"]
   },{
-    "name": "Docker",
-    "level": "Advanced"
+    "name": "Data Exploration",
+    "keywords": ["Matplotlib", "Jupyter", "What-If", "SHAP"]
   },{
-    "name": "Go",
-    "level": "Beginner"
+    "name": "ML Frameworks",
+    "keywords": ["SageMaker", "Dataiku", "TFX"]
   },
     {
-    "name": "Analytics",
-    "level": "Advanced",
-    "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
-  },
+      "name": "AWS Cloud",
+      "level": "Master",
+      "keywords": ["SAM", "EC2", "Lambda", "DynamoDB", "ECR", "Cloudfront", "S3", "Cloudformation", "Sns", "Appsync"]
+
+    },
     {
-    "name": "Data Persistence",
-    "level": "Advanced",
-    "keywords": ["Redis", "Oracle", "Couchbase", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
-  }
+      "name": "Data Event Product Tools",
+      "level": "Advanced",
+      "keywords": ["Kafka", "Spark", "Flink", "Kappa", "Prometheus", "Kinesis"]
+    },
+    {
+      "name": "Data Persistence",
+      "level": "Advanced",
+      "keywords": ["Redis", "Oracle", "Couchbase", "Cassandra", "Elasticsearch", "Postgresql", "Dynamodb", "Sql", "Mysql", "Redshift", "S3", "Graphql"]
+    }
   ],
   "work": [
     {
       "endDate": "present",
       "highlights": [
-        "Authored/Trained/Implemented NLP AI to automatically route support tickets, achieving 90% success rate, $12k in cost reduction per week",
-        "Hand wrote preprocessing and feature extraction in pandas",
-        "Hand engineered features from Oracle dataset analysis in addition to model generated freetext embeddings",
-        "Led Automation Center of Excellence team of 6 to create automation solutions for internal clients",
-        "Launched SDLC compliance controlled production services, including Gitlab and AWX",
-        "Implemented SCRUM/Agile practices in previously waterfall teams"
+        "Project 1: Led team of 5 in building NLP imbalanced data classifier to route support tickets, achieving 90% success rate, $6k/day value generated",
+        "Wrote timeline/milestone/roadmap artifacts from stakeholder interviews",
+        "Presented 16 initial EDA visualizations over Oracle dataset in jupyter notebooks to discover feature importance, data distribution, heuristic benchmarks",
+        "Wrote multi-processed pandas pre-processing code to clean, enrich, tokenize and re-sample training data",
+        "Model V1 - Initial Random Forest to production within 1 month - achieving initial $2k/day value generated 2 months ahead of schedule",
+        "Authored core python modules (logging, analysis, testing framework) to allow junior team members to color-by-numbers for new functionality",
+        "Model V2 - Generated freetext embeddings using BERT transformer architecture, classified using OVA Logistic regression in sklearn, achieved $5k/day",
+        "Created Training pipeline feature store for previously embedded and feature extracted tickets to accelerate training iteration",
+        "Authored Ansible based deployment/retraining/serving pipeline with versioning.  Single button push to production behind blue/green sequence",
+        "Mentored junior engineers to create regression test suite and gated check in based on customer reported false positives",
+        "Model V3 - softmax NN classifier trained on embedded categorical info plus BERT embeddings - $6k/day value generated",
+        "Project 2: Led team of 6 in service health outage data enrichment model built using PyTorch and jupyter notebooks - improving service restoration time on average by 20%",
+        "Drew up ML feature roadmaps in coordination with team of over 100 personnel with director level stakeholders across 6 different service towers responsible for all of Pfizer's critical lines of business",
+        "Explored features from post ingestion analytics in jupyter notebooks with Python 3.",
+        "Delegated implementation of k means model code to cluster historical failure events, compare analytic stream state to clusters",
+        "Used Dataiku framework to engineer flows for training data ingestion, model versioning, and production inference",
+        "Roadmapped feature growth plans for service outage prediction"
       ],
       "startDate": "2020-03-11",
       "position": "Senior Machine Learning Engineer",
@@ -98,13 +97,13 @@
     {
       "endDate": "2019-07-13",
       "highlights": [
-        "Synchronized business data between Salesforce source of truth and DynamoDB operational store",
-        "Extracted intent features from end user activity sessions on platform",
+        "Principal Engineer, responsible for all technical roadmapping and delivery schedules",
         "Created recommendation feature to drive user engagement in liquidity asset platform, enabling 5x increase in average user network size over 4 months",
-        "Authored full suite of 26 AWS Lambda serverless microservices in nodejs, python, and Rust",
-        "Wrote mobile optimised browser client for Ethereum blockchain smart contract using Web3, Ethers.js, Geth, Metamask, Coinbase Wallet",
-        "Enabled real-time content editing and chat for customer data using AWS serverless websocket API",
-        "Designed and implemented secure single-use \"magiclink\" email-based auth using Lambda, DynamoDB, and SES"
+        "Personally responsible for all AWS lambda based production python code used for the platform's application backend microservices and analytics/ML pipeline",
+        "Authored code to extract user and client company seed features from onboarding surveys (initially no-code generated in typeform, later custom react/cljs form) and captured usage analytics from platform engagement",
+        "Used TDF-IDF of customer interests X client company features, used SVM to find cosine similarity, suggested most similar users to company CFO",
+        "Implemented AWS Codebuild pipeline to deploy model and server code through dev into production",
+        "Created serverless environment segregation system using cloudfront and api gateway to ensure dev calls and prod calls reached different code"
       ],
       "startDate": "2018-09-25",
       "summary": "Nth Round is an NEA backed startup that aims to provide a blockchain-powered secure marketplace for the resale of private equity among its clients' shareholders.",
@@ -114,13 +113,11 @@
     {
       "endDate": "2018-06-01",
       "highlights": [
-        "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 50,000 events per day",
-        "Created Entity Linking system to identify and disambiguate unique users on the platform, allowing 20k new users to be recognized and 70k duplicate users to be removed",
-        "Ran Jupyter based feature demos to internal product strategy teams, sales, and client relationship teams",
-        "Containerized 14 service system for rapid local development, images tagged and stored on AWS: ECR",
-        "Architected document versioning and archive retrieval system for client defined data.",
-        "AWS S3 based SFTP platform for 39 clients, used for triggering automated reports from Looker",
-        "Implemented Jenkins based continuous integration pipeline for 6 Clojure, 2 Ansible, 3 Node service"
+        "Designed Event Driven Analytics pathway with Kafka, Spark and Kinesis, increasing actionable business insight data by 250,000 events per day",
+        "Created model based customer disambiguation and deduping report system, allowing 20k new users to be recognized and 70k duplicate users to be removed",
+        "Used Python implemented fuzzy scoring algorithm to identify potential duplicates and to disambiguate records with invalid/phony contact info",
+        "Potential dupes were submitted to external clients for reconciliation and used internally for recommendation",
+        "Software Production Release Manager and Team Lead for v2 api design team"
       ],
       "startDate": "2016-09-01",
       "summary": "",
@@ -132,10 +129,7 @@
       "highlights": [
         "Created Distributed Scheduler API using redis/couchbase",
         "Led daily standups with 8 person team focused horizontal delivery of apps to bank-wide users.",
-        "Created Supervised Event Management model to schedule calculation jobs based on history of runtimes",
-        "Guided product execution team to new web migration strategy",
-        "Provided strategic training to collaborating teams on new web migration strategy",
-        "Interfaced daily with customers to support software products"
+        "Coded Python based KNN model workflow predictor to suggest runtime of jobs based on similar job history"
       ],
       "startDate": "2016-02-01",
       "summary": "The Saber2 dev team was an internal development task force charged with modernizing and replacing Bank of America's capital reporting platform, Saber",
@@ -146,6 +140,7 @@
       "endDate": "2016-01-01",
       "highlights": [
         "Architected reporting event emission pipeline",
+        "Interviewed and hired key personnel for frontend software development",
         "Architected and implemented a GUI based, JSON driven cloud automation framework 'BotFactory' - scale tested for use with General Electric cloud computing.",
         "Designed unit test implementation strategy around 3 year old legacy code base cloud harvesting engine",
         "Created cloud testing framework tools for use with multiple asynchronous python processes",
@@ -181,6 +176,13 @@
   ],
   "meta": {"theme":  "paper"},
   "education": [
+    {
+      "institution": "University of Colorado Boulder",
+      "startDate": "2023-01-16",
+      "studyType": "Masters of Science",
+      "endDate": "2024-07-18",
+      "area": "Data Science"
+    },
     {
       "institution": "Temple University",
       "startDate": "2011-01-01",

@@ -1,18 +1,47 @@
 version: 0.2
+
 phases:
   install:
     runtime-versions:
-      nodejs: 10
+      nodejs: 14
+    commands:
+      # Ensure that we have the necessary tools installed
+      - npm install -g resume-cli
+      - npm install -g jsonresume-theme-straightforward
+
+  pre_build:
+    commands:
+      # Validate the resume.json file before building
+      - resume test
+
   build:
     commands:
       - mkdir resume
-      - npm install --save jsonresume-theme-eloquent
-      - node theme.js > resume/index.html
-      - node themeML.js > resume/ML.html
-      # - sed -i '8 i\<script src="https://tjtolton.com/drift.js"></script>' resume/index.html
+      # Generate the HTML version of the resume
+      - resume export resume/index.html --theme jsonresume-theme-straightforward
+
+      # Generate the PDF version of the resume
+      - resume export resume/ML.pdf --theme jsonresume-theme-straightforward --format pdf
       - aws cloudfront create-invalidation --distribution-id E2FHTVKFO67JA2 --paths /resume* /resume/ML* /login*
+
 artifacts:
   files:
-      - resume/**/*
-      - drift.js
-      - login/**/*
+    - resume/**/*
+#    - drift.js
+#    - login/**/*
+
+
+#version: 0.2
+#phases:
+#  install:
+#    runtime-versions:
+#      nodejs: 10
+#  build:
+#    commands:
+#      - mkdir resume
+#      - npm install --save jsonresume-theme-straightforward
+#      - node theme.js > resume/index.html
+#      - node themeML.js > resume/ML.html
+#      -
+#      # - sed -i '8 i\<script src="https://tjtolton.com/drift.js"></script>' resume/index.html
+
