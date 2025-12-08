@@ -3,7 +3,7 @@
     "email": "tjtolton@gmail.com",
     "phone": "(717) 781-6668",
     "name": "Tyler Tolton",
-    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership. Successful in connecting business outcomes with high-performing teams. Expertise in software, product led growth, data science, and team organization.",
+    "summary": "Customer Value, Mathematical Rigor, Experimentation, Clear Communication, and Ownership. Successful in connecting business outcomes with high-performing teams. Expertise in machine learning software, product led growth, data science, and team organization.",
     "label": "Modeling Focused Machine Learning Engineer",
     "picture": "",
     "website": "http://tylertolton.com",
@@ -15,14 +15,15 @@
       }
     ],
     "location": {
-      "address": "1290 Country Club Road",
-      "city": "York",
+      "address": "30 Christy Ct",
+      "city": "Elizabethtown",
       "region": "Pennsylvania",
-      "postalCode": "17403",
+      "postalCode": "17022",
       "countryCode": "US"
     }
   },
-  "certificates": [{
+  "certificates": [
+    {
     "name": "AWS Machine Learning Specialty",
     "date": "2020-10-04",
     "issuer": "Amazon Web Services Training and Certification",
@@ -34,7 +35,8 @@
     "url": "https://www.coursera.org/account/accomplishments/specialization/TX5NKNCE858S"
   }
   ],
-  "skills": [{
+  "skills": [
+    {
     "name": "Coding",
     "keywords": ["Python", "Clojure(script)", "ECMA6", "Rust", "Java", "C++", "C#", "Go"]
 
@@ -66,6 +68,19 @@
     }
   ],
   "work": [
+    {
+      "endDate": "2023-10-01",
+      "highlights": [
+        "Led advertiser guidance performance surprise initiative across data science, frontend, and modeling partners, owning experiment design, UI integration, and modeling roadmap for guidance surfaces",
+        "Hand engineered the reusable ingestion and preprocessing pipelines that fed midflight binary classifier features, enabling weekly refresh cadence and reproducible model diagnostics",
+        "Authored the midflight zero-result classifier training code, tuned metrics, and defined the feature contract that junior engineers followed to stand up the preflight model",
+        "Ran 6-week production experiment on guidance cards/highlights that flagged zero-result risk, delivering 0.2% incremental revenue uplift at statistically significant p-value"
+      ],
+      "startDate": "2024-10-01",
+      "summary": "Advertiser Guidance Team",
+      "position": "Staff Machine Learning Engineer",
+      "company": "Meta Platforms, Inc."
+    },
     {
       "endDate": "",
       "highlights": [
